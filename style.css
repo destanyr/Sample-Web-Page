@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 20px;
+    font-family: papyrus;
+    font-size: 20px;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("front.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 50px;
+    font-family: 'Beau Rivage';
+    letter-spacing: 7px;
+}
+
+.menu-button {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button button {
+    height: 5rem;
+    width: 20rem;
+    font-size: 25px;
+    background-color: black;
+    border: 2px solid rgb(13, 51, 36);
+    color: white;
+    font-family: papyrus;
+}
+
+.summary {
+    height: 90vh;
+    display: flex;
+}
+
+.summary img {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    margin-left: 80px;
+    border: 2px solid rgb(13, 51, 36);
+}
+
+.summary-text {
+    width: 600px;
+    margin-left: 80px;
+}
+
+.summary h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Beau Rivage';
+    letter-spacing: 9px;
+}
+
+.summary p {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.gallery-text {
+    height: 30vh;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Beau Rivage';
+    letter-spacing: 9px;
+}
+
+.gallery {
+    height: 100vh;
+}
+
+.contact-main-text {
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Beau Rivage';
+    font-size: 30px;
+    letter-spacing: 9px;
+}
+
+.contact {
+    height: 100vh;
+    display: flex;
+}
+
+form {
+    width: 40rem;
+    height: 30rem;
+    border: 5px solid rgb(13, 51, 36);
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.contact-text {
+    margin-left: 70px;
+}
+
+.con-name {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.con-address {
+    margin-bottom: 15px;
+}
